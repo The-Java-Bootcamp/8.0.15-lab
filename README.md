@@ -42,10 +42,10 @@ In this assignment, you will create a simple smart home system using interfaces.
    - Implement all methods from both interfaces.
    - `voiceControl` should accept commands like "volume up", "volume down", "on", or "off".
 6. Create a `SmartHomeController` class with a `main` method:
-- Create an array of `Device` objects containing instances of `SmartLight`, `SmartThermostat`, and `SmartSpeaker`.
-- Implement a method `controlDevice(Device device)` that turns the device on or off and prints its status.
-- Implement a method `voiceControl(VoiceControlled device, String command)` that sends voice commands to compatible devices.
-- Demonstrate the use of these methods with different devices.
+   - Create an array of `Device` objects containing instances of `SmartLight`, `SmartThermostat`, and `SmartSpeaker`.
+   - Implement a method `controlDevice(Device device)` that turns the device on or off and prints its status.
+   - Implement a method `voiceControl(VoiceControlled device, String command)` that sends voice commands to compatible devices.
+   - Demonstrate the use of these methods with different devices.
 
 **Example Output**
 
